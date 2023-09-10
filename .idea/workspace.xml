@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587388aa-a523-4aec-8561-6bba0ba54c81" name="Changes" comment="aфукшадпршгфаацуы">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="587388aa-a523-4aec-8561-6bba0ba54c81" name="Changes" comment="aфукшадпршгфаацуыафуу">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <workItem from="1694254083118" duration="2473000" />
       <workItem from="1694347192603" duration="653000" />
       <workItem from="1694347859912" duration="6641000" />
-      <workItem from="1694366861825" duration="7341000" />
+      <workItem from="1694366861825" duration="7656000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1693838394677</created>
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694378887475</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="aфукшадпршгфаацуыафуу">
+      <created>1694380569279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694380569279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +188,7 @@
     <MESSAGE value="acsdлedscджл" />
     <MESSAGE value="acsdлedscджлd,.s" />
     <MESSAGE value="aфукшадпршгфаацуы" />
-    <option name="LAST_COMMIT_MESSAGE" value="aфукшадпршгфаацуы" />
+    <MESSAGE value="aфукшадпршгфаацуыафуу" />
+    <option name="LAST_COMMIT_MESSAGE" value="aфукшадпршгфаацуыафуу" />
   </component>
 </project>

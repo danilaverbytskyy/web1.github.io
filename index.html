@@ -5,9 +5,9 @@
     <title>Task 1</title>
 </head>
 <body>
-<p><a name="top">Task 1</a></p>
+<p><a id="top">Task 1</a></p>
 <ul>
-    <li><a name="link1" href="http://www.kubsu.ru/ru">1.КубГУ1</a></li>
+    <li><a id="link1" href="http://www.kubsu.ru/ru">1.КубГУ1</a></li>
     <li><a href="https://www.kubsu.ru/ru">2.КубГУ2</a></li>
     <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="400" height="200" alt="flower"></a></li>
     <li><a href="/second-page">4.Сокращенная ссылка</a></li>
@@ -22,10 +22,10 @@
     </p></li>
     <li><p>13. Я люблю <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Гоголя</a> читать</p></li>
     <li><p><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87#%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F">14.Фрагмент страницы </a></p></li>
-    <li><a name="link16" href="">16.Ссылка с пустым href</a></li>
+    <li><a id="link16" href="">16.Ссылка с пустым href</a></li>
     <li><a>17.Ссылка без href https://example.com/</a></li>
     <li><a href="https://example.com" rel="nofollow">18.Ссылка запрещенная для поисковиков</a></li>
-    <noindex><li><a href="">19.Запрещена для индексации поисковиками</a></li></noindex>
+    <li><a href="" rel="noindex">19.Запрещена для индексации поисковиками</a></li>
     <li>
         <p>20. Список ссылок навигации сайта</p>
         <nav>
@@ -48,11 +48,11 @@
 </ul>
 
 <h2 id="form"> Form</h2>
-<form action="" method="POST">
-    <p><label for="FIO"><input type="text" id="FIO" placeholder="FIO"></label></p>
-    <p><label for="telephone"><input type="tel" id="telephone" placeholder="phone number"></label></p>
+<form method="POST">
+    <p><label for="FIO"><input type="text" id="FIO" placeholder="name"></label></p>
+    <p><label for="telephone"><input type="tel" id="telephone" placeholder="number"></label></p>
     <p><label for="email"><input type="email" id="email" placeholder="email"></label></p>
-    <p><label for="birthday"><input type="date" id="birthday" placeholder="birthday"></label></p>
+    <p><label for="birthday"><input type="date" id="birthday"></label></p>
     <div>Male
         <label for="sex-m"><input type="radio" id="sex-m"></label>
     </div>
@@ -74,7 +74,7 @@
         <option value="">Scala</option>
     </select></p>
     <label>
-        <textarea name="Biography" rows="12" cols="30" placeholder="Biography"></textarea>
+        <textarea name="Biography" rows="12" cols="30" placeholder="text"></textarea>
     </label>
     <p>С контрактом ознакомлен:
         <label>
