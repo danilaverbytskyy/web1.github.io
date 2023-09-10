@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Task 1</title>
 </head>
 <body>
-    <p><a name="top">Task 1</a></p>
-    <ul>
-        <li><a href = "http://www.kubsu.ru/ru">КубГУ1</a></li>
-        <li><a href = "https://www.kubsu.ru/ru">КубГУ2</a></li>
-        <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="400" height="200" alt="flower"></a></li>
-        <li><a href="/second-page">Сокращенная ссылка</a></li>
-        <li><a href="./folder1/folder2/deep-hidden-page.html">Страница в каталогах</a></li>
-        <li><a href="#top">Link 6(На самый верх страницы)</a></li>
-        <li><a href="?key=7&name=Danya&age=18">?Link 7</a></li>
-        <li><a href="?id=5">?Link 8</a></li>
-        <li><a href="/demo.html">?Link 9</a></li>
-        <li><a href="/about/page.html">Link 10</a></li>
-        <li><a href="../1upper/page.html">Link 11</a></li>
-        <li><a href="../../2upper/page.html">Link 12</a></li>
-        <!-- (li>a)*19 -->
-    </ul>
-    <form action="" method="POST">
-        <p><input type="text" id="FIO" placeholder="FIO"></p>
-        <p><input type="tel" id="telephone" placeholder="phone number"></p>
-        <p><input type="email" id="email" placeholder="email"></p>
-        <p><input type="date" id="birthday" placeholder="birthday"></p>
-        <div>Male</div><input type="radio" id="sex-m">
-        <div>Female</div><input type="radio" id="sex-f">
-        <p> Favourite programming language: <select>
-            <option value="">Java</option>
-            <option value="">C++</option>
-            <option value="">Pascal</option>
-            <option value="">C#</option>
-            <option value="">JavaScript</option>
-            <option value="">PHP</option>
-            <option value="">Python</option>
-            <option value="">Haskel</option>
-            <option value="">Clojure</option>
-            <option value="">Prolog</option>
-            <option value="">Scala</option>
-        </select></p>
-            <textarea name="Biography" rows="12" cols="30" placeholder="Biography"></textarea>
-        <p>С контрактом ознакомлен:
-            <input type="checkbox">
-        </p>
-        <input type="button" value="Сохранить">
-    </form>
+<p><a name="top">Task 1</a></p>
+<ul>
+    <li><a href="http://www.kubsu.ru/ru">1.КубГУ1</a></li>
+    <li><a href="https://www.kubsu.ru/ru">2.КубГУ2</a></li>
+    <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="400" height="200" alt="flower"></a></li>
+    <li><a href="/second-page.html">4.Сокращенная ссылка</a></li>
+    <li><a href="./folder1/folder2/deep-hidden-page.html">5.Страница в каталогах</a></li>
+    <li><a href="#top">6.Link 6(На самый верх страницы)</a></li>
+    <li><a href="?key=7&name=Danya&age=18">7.Ссылка с тремя параметрами</a></li>
+    <li><a href="?id=5">8.Ссылка с параметром id</a></li>
+    <li><a href="">9.?Link 9</a></li>
+    <li><a href="./about/about.html">10.About</a></li>
+    <li><p>11.Относительная выше текущего есть на <a href="./about/about.html">этой странице</a></p></li>
+    <li><p>12.Относительная выше на 2 текущего есть на <a href="./folder1/folder2/deep-hidden-page.html">этой странице</a>
+    </p></li>
+    <li><a href="">16.Ссылка с пустым href</a></li>
+    <li><a>17.Ссылка без href https://example.com/</a></li>
+    <li><a href=""></a></li>
+    <!-- (li>a)*19 -->
+</ul>
+<form action="" method="POST">
+    <p><input type="text" id="FIO" placeholder="FIO"></p>
+    <p><input type="tel" id="telephone" placeholder="phone number"></p>
+    <p><input type="email" id="email" placeholder="email"></p>
+    <p><input type="date" id="birthday" placeholder="birthday"></p>
+    <div>Male</div>
+    <input type="radio" id="sex-m">
+    <div>Female</div>
+    <input type="radio" id="sex-f">
+    <p> Favourite programming language: <select>
+        <option value="">Java</option>
+        <option value="">C++</option>
+        <option value="">Pascal</option>
+        <option value="">C#</option>
+        <option value="">JavaScript</option>
+        <option value="">PHP</option>
+        <option value="">Python</option>
+        <option value="">Haskel</option>
+        <option value="">Clojure</option>
+        <option value="">Prolog</option>
+        <option value="">Scala</option>
+    </select></p>
+    <textarea name="Biography" rows="12" cols="30" placeholder="Biography"></textarea>
+    <p>С контрактом ознакомлен:
+        <input type="checkbox">
+    </p>
+    <input type="button" value="Сохранить">
+</form>
 </body>
 </html>
