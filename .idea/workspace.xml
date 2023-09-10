@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587388aa-a523-4aec-8561-6bba0ba54c81" name="Changes" comment="acsdл">
-      <change afterPath="$PROJECT_DIR$/about/about.html" afterDir="false" />
+    <list default="true" id="587388aa-a523-4aec-8561-6bba0ba54c81" name="Changes" comment="acsdлedscджл">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/folder1/folder2/deep-hidden-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/folder1/folder2/deep-hidden-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder1/folder2/deep-hidden-page.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/second-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second-page.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,8 @@
       <workItem from="1694248951793" duration="3109000" />
       <workItem from="1694254083118" duration="2473000" />
       <workItem from="1694347192603" duration="653000" />
-      <workItem from="1694347859912" duration="5732000" />
+      <workItem from="1694347859912" duration="6641000" />
+      <workItem from="1694366861825" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1693838394677</created>
@@ -144,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694348737935</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="acsdлedsc">
+      <created>1694366137843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694366137843</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +167,8 @@
     <MESSAGE value="deleted not used files" />
     <MESSAGE value="acsd" />
     <MESSAGE value="acsdл" />
-    <option name="LAST_COMMIT_MESSAGE" value="acsdл" />
+    <MESSAGE value="acsdлedsc" />
+    <MESSAGE value="acsdлedscджл" />
+    <option name="LAST_COMMIT_MESSAGE" value="acsdлedscджл" />
   </component>
 </project>

@@ -7,33 +7,50 @@
 <body>
 <p><a name="top">Task 1</a></p>
 <ul>
-    <li><a href="http://www.kubsu.ru/ru">1.КубГУ1</a></li>
+    <li><a name="link1" href="http://www.kubsu.ru/ru">1.КубГУ1</a></li>
     <li><a href="https://www.kubsu.ru/ru">2.КубГУ2</a></li>
     <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="400" height="200" alt="flower"></a></li>
-    <li><a href="/second-page.html">4.Сокращенная ссылка</a></li>
-    <li><a href="./folder1/folder2/deep-hidden-page.html">5.Страница в каталогах</a></li>
+    <li><a href="/second-page">4.Сокращенная ссылка</a></li>
+    <li><a href="/">5.Сокращенную на главную</a></li>
     <li><a href="#top">6.Link 6(На самый верх страницы)</a></li>
     <li><a href="?key=7&name=Danya&age=18">7.Ссылка с тремя параметрами</a></li>
     <li><a href="?id=5">8.Ссылка с параметром id</a></li>
-    <li><a href="">9.?Link 9</a></li>
+    <li><a href="page">9.Относительная на страницу в текущем каталоге</a></li>
     <li><a href="./about/about.html">10.About</a></li>
-    <li><p>11.Относительная выше текущего есть на <a href="./about/about.html">этой странице</a></p></li>
-    <li><p>12.Относительная выше на 2 текущего есть на <a href="./folder1/folder2/deep-hidden-page.html">этой странице</a>
+    <li><p><a href="../page.html">11.Относительная выше текущего есть на </a></p></li>
+    <li><p><a href="../../page.html">12.Относительная выше на 2 текущего есть на</a>
     </p></li>
-    <li><a href="">16.Ссылка с пустым href</a></li>
+    <li><a name="link16" href="">16.Ссылка с пустым href</a></li>
     <li><a>17.Ссылка без href https://example.com/</a></li>
-    <li><a href=""></a></li>
+    <li><a href="https://example.com" rel="nofollow">18.Ссылка запрещенная для поисковиков</a></li>
+    <noindex><li><a href="">19.Запрещена для индексации поисковиками</a></li></noindex>
+    <li>
+        <p>20. Список ссылок навигации сайта</p>
+        <nav>
+            <ol>
+                <li><a href="#link1" title="link1">Link 1</a></li>
+                <li><a href="#link16" title="form">Link 16</a></li>
+            </ol>
+        </nav>
+        <br>
+    </li>
+    <li><a href="ftp://test:password@private.public.example.com/directory/file.txt">21.Ссылка на файл на сервере FTP с
+        авторизацией</a></li>
     <!-- (li>a)*19 -->
 </ul>
+
 <form action="" method="POST">
-    <p><input type="text" id="FIO" placeholder="FIO"></p>
-    <p><input type="tel" id="telephone" placeholder="phone number"></p>
-    <p><input type="email" id="email" placeholder="email"></p>
-    <p><input type="date" id="birthday" placeholder="birthday"></p>
-    <div>Male</div>
-    <input type="radio" id="sex-m">
-    <div>Female</div>
-    <input type="radio" id="sex-f">
+    <p><label for="FIO"><input type="text" id="FIO" placeholder="FIO"></label></p>
+    <p><label for="telephone"><input type="tel" id="telephone" placeholder="phone number"></label></p>
+    <p><label for="email"><input type="email" id="email" placeholder="email"></label></p>
+    <p><label for="birthday"><input type="date" id="birthday" placeholder="birthday"></label></p>
+    <div>Male
+        <label for="sex-m"><input type="radio" id="sex-m"></label>
+    </div>
+    <div>
+        Female
+        <label for="sex-f"><input type="radio" id="sex-f"></label>
+    </div>
     <p> Favourite programming language: <select>
         <option value="">Java</option>
         <option value="">C++</option>
@@ -47,9 +64,13 @@
         <option value="">Prolog</option>
         <option value="">Scala</option>
     </select></p>
-    <textarea name="Biography" rows="12" cols="30" placeholder="Biography"></textarea>
+    <label>
+        <textarea name="Biography" rows="12" cols="30" placeholder="Biography"></textarea>
+    </label>
     <p>С контрактом ознакомлен:
-        <input type="checkbox">
+        <label>
+            <input type="checkbox">
+        </label>
     </p>
     <input type="button" value="Сохранить">
 </form>
