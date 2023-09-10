@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587388aa-a523-4aec-8561-6bba0ba54c81" name="Changes" comment="acsdлedscджлd,.s">
+    <list default="true" id="587388aa-a523-4aec-8561-6bba0ba54c81" name="Changes" comment="aфукшадпршгфаацуы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -84,7 +84,7 @@
       <workItem from="1694254083118" duration="2473000" />
       <workItem from="1694347192603" duration="653000" />
       <workItem from="1694347859912" duration="6641000" />
-      <workItem from="1694366861825" duration="5546000" />
+      <workItem from="1694366861825" duration="7341000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1693838394677</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694370171713</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="aфукшадпршгфаацуы">
+      <created>1694378887475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694378887475</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +181,7 @@
     <MESSAGE value="acsdлedsc" />
     <MESSAGE value="acsdлedscджл" />
     <MESSAGE value="acsdлedscджлd,.s" />
-    <option name="LAST_COMMIT_MESSAGE" value="acsdлedscджлd,.s" />
+    <MESSAGE value="aфукшадпршгфаацуы" />
+    <option name="LAST_COMMIT_MESSAGE" value="aфукшадпршгфаацуы" />
   </component>
 </project>
