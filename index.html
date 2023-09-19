@@ -16,7 +16,7 @@
     <li><a href="https://www.youtube.com/watch?v=xm3YgoEiEDc&t=400s&ab_channel=10Hours&t=10000">7.Ссылка с тремя
         параметрами</a></li>
     <li><a href="https://example.com?id=5">8.Ссылка с параметром id</a></li>
-    <li><a href="/page.html">9.Относительная на страницу в текущем каталоге</a></li>
+    <li><a href="page.html">9.Относительная на страницу в текущем каталоге</a></li>
     <li><a href="./about/about.html">10.About</a></li>
     <li><p><a href="../page.html">11.Относительная выше текущего есть на </a></p></li>
     <li><p><a href="../../page.html">12.Относительная выше на 2 текущего есть на</a>
@@ -44,19 +44,19 @@
     <li><a href="ftp://demo:password@test.rebex.net/readme.txt">Ссылка на файл на сервере FTP савторизацией</a></li>
 </ul>
 
-<map name="infog">
-    <area shape="rect"
-          coords="50,50,110,110"
-          href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D1%8B%D1%88%D1%8C"
-          target="_blank"
-          alt="HTML">
+<map name="infographic">
     <area shape="circle"
-          coords="220,80,35"
-          href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D0%B1%D1%80%D0%B0"
+          coords="150,135,100"
+          href="https://ru.wikipedia.org/wiki/Circle"
+          target="blank"
+          alt="HTML" />
+    <area shape="rect"
+          coords="285,35,490,240"
+          href="https://ru.wikipedia.org/wiki/Square"
           target="_blank"
-          alt="HTML">
+          alt="HTML" />
 </map>
-<img usemap="#infog" src="figures.png" alt="">
+<img usemap="#infographic" src="figures.png" alt="MDN infographic" />
 <br>
 
 <h2 id="form">Form</h2>
@@ -95,7 +95,7 @@
             <input type="checkbox" required>
         </label>
     </p>
-    <input type="button" value="Сохранить" required>
+    <input type="button" value="Сохранить">
 </form>
 </body>
 </html>
